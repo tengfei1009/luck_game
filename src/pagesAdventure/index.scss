@@ -1,0 +1,41 @@
+.adventure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.card-pile {
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  .pile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 4列
+  grid-gap: 10px; // 列间隔
+  width: 700rpx
+}
+
+.card-image {
+  width: 100%;
+  height: 300rpx;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  &.flipped {
+    transform: rotateY(180deg); /* 简单的翻转动画 */
+  }
+}

@@ -1,0 +1,60 @@
+.main {
+  margin: 60rpx 40rpx 0;
+}
+
+.part_1 .answer-book {
+  width: 100%;
+  margin: 40rpx 0;
+  text-align: center;
+}
+.part_1 .answer-book Image{
+  width: 400rpx;
+  height: 600rpx;
+}
+
+.part_2 .loading-image {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.part_3 Image {
+  width: 680rpx;
+  height: 400rpx;
+  display: block; /* 将图片设置为块级元素 */
+  margin: 0 auto 40rpx; /* 水平居中 */
+  border-radius: 20rpx;
+}
+
+.part_3 .answer_text {
+  font-family: 'Lobster', cursive; /* 使用 Lobster 字体 */
+  font-size: 1.2rem; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+  text-align: center; /* 居中对齐 */
+  line-height: 1.6; /* 行高 */
+  margin: 40rpx 0; /* 上下外边距 */
+  padding: 10rpx; /* 内边距 */
+  background-color: #f9f9f9; /* 背景颜色 */
+  border-radius: 20rpx; /* 圆角边框 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  border-bottom: 4rpx dashed #ffcc00; /* 只给底部添加虚线边框 */
+}
+
+
+// /* 鼠标悬停效果 */
+// .answer_text:hover {
+//   color: #ff6600; /* 鼠标悬停时的字体颜色 */
+//   transform: scale(1.05); /* 轻微放大 */
+//   transition: all 0.3s ease; /* 平滑过渡效果 */
+// }
+
+.part_3 .return-button {
+  margin-top: 20rpx; /* 上边距 */
+  text-align: center; /* 文本居中 */
+  padding: 10rpx 20rpx; /* 内边距 */
+  background-color: #3d97f8; /* 背景颜色 */
+  color: white; /* 文字颜色 */
+  border: none; /* 无边框 */
+  border-radius: 10rpx; /* 圆角边框 */
+  cursor: pointer; /* 鼠标悬停时显示手型 */
+}
