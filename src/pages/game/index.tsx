@@ -5,16 +5,14 @@
 * @LastEditTime: 2024-08-10 16:48:37
 * @description: Personal
 */
-import { View,Image } from '@tarojs/components';
+import { View, Image } from '@tarojs/components';
 import './index.scss';
-import Taro, { useDidShow, useLoad } from '@tarojs/taro';
+import Taro from '@tarojs/taro';
 
-
-require('../../assets/images/game_account/answer_book_2.jpg');
-require('../../assets/images/game_account/icon.jpg');
-require('../../assets/images/game_account/South America.jpg');
-require('../../assets/images/game_account/fun.png');
-
+require('@/assets/images/game_account/answer_book_2.jpg');
+require('@/assets/images/game_account/icon.jpg');
+require('@/assets/images/game_account/South America.jpg');
+require('@/assets/images/game_account/fun.png');
 
 export default function Game() {
   return (
@@ -25,11 +23,11 @@ export default function Game() {
           <span>问答之书</span>
         </View>
         <View className="grid-item" onClick={() => Taro.navigateTo({ url: '/pagesIcon/index' })}>
-          <Image src="../../assets/images/game_account/icon.jpg"  />
+          <Image src="../../assets/images/game_account/icon.jpg" />
           <span>随机硬币</span>
         </View>
         <View className="grid-item" onClick={() => Taro.navigateTo({ url: '/pagesAdventure/index' })}>
-          <Image src="../../assets/images/game_account/South America.jpg"  />
+          <Image src="../../assets/images/game_account/South America.jpg" />
           <span>真心话大冒险</span>
         </View>
         <View className="grid-item" onClick={() => Taro.navigateTo({ url: '/pagesTurnTable/index' })}>

@@ -6,8 +6,6 @@ import { preloadRule } from './preloadRule';
 export const TABBAR_PAGE = {
   // 游戏中心
   GAME: '/pages/game/index',
-  /** 首页 */
-  HOME: '/pages/home/index',
   // 用户中心
   MAIN: '/pages/main/index',
   /** 个人中心 */
@@ -55,16 +53,9 @@ export const TAB_BAR_LIST: App.Tabbar[] = [
     selectedIconPath: 'https://oss.5rs.me/oss/uploadfe/png/455a3001c65e23ecc0e5cf09c736f17e.png'
   },
   {
-    key: 'home',
-    pagePath: TABBAR_PAGE.HOME,
-    text: '首页',
-    iconPath: 'https://oss.5rs.me/oss/uploadfe/png/ecbef6cdea2102e6b1f07e5431cb0bfe.png',
-    selectedIconPath: 'https://oss.5rs.me/oss/uploadfe/png/455a3001c65e23ecc0e5cf09c736f17e.png'
-  },
-  {
     key: 'main',
     pagePath: TABBAR_PAGE.MAIN,
-    text: '用户中心',
+    text: '用户广场',
     iconPath: 'https://oss.5rs.me/oss/uploadfe/png/ecbef6cdea2102e6b1f07e5431cb0bfe.png',
     selectedIconPath: 'https://oss.5rs.me/oss/uploadfe/png/455a3001c65e23ecc0e5cf09c736f17e.png'
   },

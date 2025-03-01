@@ -6,11 +6,12 @@
  * @description: Personal
  */
 import { View } from '@tarojs/components';
+import './index.scss'; // 引入样式文件
 
 export default function Main() {
   return (
-    <View>
-      <div>主要页</div>
+    <View className="main">
+      <div>用户广场</div>
     </View>
   );
 }

@@ -14,20 +14,13 @@ import { loadPackageNames } from './modules';
 // 模块化开发：明确代码包的依赖关系，便于维护和扩展。
 
 const RULE = {
-  'pages/home/index': {
+  'pages/game/index': {
     network: 'all',
     packages: [
       'pagesBook', // 填写PAGE/modules/对应包的name值也可： 详情页 = pagesBook
       'pagesIcon',
       'pagesAdventure',
       'pagesTurnTable'
-    ]
-  },
-  'pages/personal/index': {
-    network: 'all',
-    packages: [
-      '用户module', // = pagesLogin
-      '其他module'
     ]
   }
 };
